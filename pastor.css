@@ -1,0 +1,173 @@
+/*el font family cuando lo aplico en el comienzo lo aplica a toda la pagina*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+/* aqui el margin y el padding en 0 es para que ocupen la parte superior de la pagina que por defecto los separa*/
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+   
+    font-family: 'Grape Nuts', cursive;
+   
+}
+
+.contenedor-titulo{
+    background-color: rgba(251, 251, 251, 0.3);
+}
+
+.contenedor-titulo{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 40px;
+    /* position: relative; */
+    top: 20px;
+    width: 80%;
+
+}
+
+
+
+ #fondo{
+    background-image: url('../imagenes-modulo-1/pastor-aleman.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 97vh;
+    
+}
+#titulo{
+    color: brown;
+    display: flex;
+    width: 100%;
+
+}
+#titulo h1{
+    float: left;
+}
+
+.contenedornav{
+    
+    width: 100%;
+    margin: auto;
+    font-family:'Segoe UI';
+    font-size: 22px;
+    color: white;
+}
+#cabeza{
+    color: white;
+    display: flex;
+    /* position: fixed; */
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background-color: rgba(149, 164, 165, 0.5);
+    padding: 5px;
+}
+
+#cabeza h1{
+    float: left;
+}
+
+.menu{
+    float: right;
+    margin-top: 10px;
+    display: block;
+
+}
+
+.menu li{
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+}
+
+.menu li:hover ul{
+   display: block; 
+}
+li ul li{
+    height: -145;
+    top: 0px;
+    padding: 10px;
+}
+
+.menu a{
+    color: white;
+    text-align: none;
+    padding: 5px 10px;
+}
+
+.menu a:hover {
+    background-color: rgba(251,251,251, 0.5);
+}
+
+.contenedorprincipal{
+    font-weight: 600;
+    font-size: 20px;
+}
+.contenedorprincipal a{
+    color: white;
+    text-decoration: none;
+    width: 10px;
+    padding: 5px 10px;
+}
+
+#principal{
+ color: rgb(67, 49, 49);
+ margin: auto;
+   font-family: 'Bebas Neue', cursive; 
+   /* position: absolute; */
+   padding: 10px;
+   top: 85%;
+}
+
+main{
+    margin-top: 0px;
+    margin-left: -36px;
+}
+
+
+
+table img{
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+}
+table {
+  
+    display: contents;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 177px 34px;
+}
+
+.cuadro{
+    height: 100px;
+    width: 200px;
+    margin-top: 100px;
+
+}
+
+.video{
+    height: 320px;
+    width: 320;
+    padding-left: 700px;
+    padding-right: 100;
+}
+
+.finaldatos{
+
+font-size: 21px;
+  padding-top: 168px;
+  
+  padding-left: 435px;
+  
+    }
+
